@@ -4,12 +4,6 @@ pragma solidity ^0.8.13;
 import "hardhat/console.sol";
 
 interface IERC721 {
-  function safeTransferFrom(
-    address from,
-    address to,
-    uint256 tokenId
-  ) external;
-
   function balanceOf(address owner) external view returns (uint256);
 }
 
